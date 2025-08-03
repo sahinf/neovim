@@ -2233,6 +2233,8 @@ local pattern = {
     ['/%.cargo/config$'] = 'toml',
     ['/%.bundle/config$'] = 'yaml',
     ['/%.kube/config$'] = 'yaml',
+    ['/%.waybar/config$'] = 'jsonc',
+    ['/waybar/config$'] = 'jsonc',
   },
   ['/%.'] = {
     ['/%.aws/credentials$'] = 'confini',
